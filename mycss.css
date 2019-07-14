@@ -28,3 +28,28 @@ form div [type] {
 .merah {
 	background-color: red;
 }
+.hasil table {
+	border-spacing: 0;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+.hasil td {
+	border: 1px solid lightblue;
+	padding : 10px;
+	margin : 10px;
+}
+.container {
+	position: relative;
+}
+.notifikasi {
+	width: 500px;
+	height: 100px;
+	background-color: lightblue;
+	position: absolute;
+	left: -500px;
+	text-align: center;
+	color: white;
+}
+.notifikasi h2 {
+	line-height: 70px;
+}
