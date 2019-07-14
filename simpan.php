@@ -5,7 +5,7 @@ if(isset($_POST)){
 	$alamat = $_POST['alamat'];
 	$pekerjaan = $_POST['pekerjaan'];
 
-	$insertdata = msyqli_query("INSERT INTO belajarajax (nama, alamat, pekerjaan) VALUES('$nama', '$alamat', '$pekerjaan')");
+	$insertdata = mysqli_query($link, "INSERT INTO belajarajax (nama, alamat, pekerjaan) VALUES('$nama', '$alamat', '$pekerjaan')");
 	
 }
 ?>
