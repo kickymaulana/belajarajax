@@ -1,0 +1,30 @@
+body {
+	font-family: Arial;
+}
+form div {
+	border-bottom: 1px solid lightblue;
+	padding : 10px 0;
+}
+form div label {
+	display: inline-block;
+	width: 100px;
+}
+form div [type="text"] {
+	border: 1px solid lightblue;
+	padding : 10px;
+}
+form div [type="submit"] {
+	border: 1px solid lightblue;
+	background-color: blue;
+	padding : 10px;
+	color: white;
+	position: relative;
+	left: 130px;
+}
+form div [type] {
+	width: 200px;
+	display: inline-block;
+}
+.merah {
+	background-color: red;
+}
